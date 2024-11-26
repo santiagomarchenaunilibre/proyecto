@@ -1,5 +1,16 @@
-@import "./node_modules/bootstrap/scss/functions";
-@import "./node_modules/bootstrap/scss/variables";
-@import "./node_modules/bootstrap/scss/mixins";
-@import "./node_modules/bootstrap/scss/bootstrap";
+// Importa las variables de Bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+// Sobrescribe variables de Bootstrap (opcional)
+$primary: #ff5733; // Cambia el color primario
+$body-bg: #f8f9fa; // Cambia el fondo del body
+
+// Escribe tus estilos personalizados
+.custom-style {
+  color: $primary;
+  font-size: 1.2rem;
+}
