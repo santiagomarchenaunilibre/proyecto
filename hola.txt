@@ -1,9 +1,4 @@
 hola
-asdsaolidhsakjdhsakljhdklsjahdlksahdkljsahlkdasjhd
-kjhgasdmlnsabhdm,
-ASD,MFNASD
-lm,nasd
-ADKMLJNSAD,MSAD,NSAM,DNSAD
-ASDKL,.JDLÑKSAMDSA
-DSAM,NDSAD
-ASD.,MNSADSADASDDSAASD
+listado de miembros del equipo:
+- Cristian A.
+- Santiago M.
