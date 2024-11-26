@@ -1,5 +1,4 @@
-hola
-listado de miembros del equipo:
+Listado de miembros del equipo:
 - Cristian A.
 - Santiago M.
--Jisseth G.
+- Jisseth G.
