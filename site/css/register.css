@@ -5,7 +5,7 @@
 }
 body{
     background-color: #F8F9FA;
-    max-width: 1200px;
+    max-width: 1100px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     padding: 20px;    
@@ -34,13 +34,13 @@ body{
     height: 20.634px;
 }
 .form-group {
-    margin-bottom: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     padding: 5% 20% 0% 20%;
 }
 label {
-    margin-bottom: 5px;
     color: #212529;
-    display: block;
+    display: block;    
 }
 input{
     width: 100%;
@@ -49,8 +49,8 @@ input{
     border-radius: 4px;
     font-size: 1em;
     text-align: center;
-    margin: 5px auto;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 h3{
     color: #28454D;
@@ -68,10 +68,9 @@ button{
     font-size: 1em;
     margin: 20px auto;
     display: block;
-    width: 60% auto
+    width: 60% auto   
 }
-.button{
-    border: 1px solid red;
+.button{    
     width: 6%;
     margin: 20px auto;
 }
@@ -80,4 +79,14 @@ button:hover{
 }
 input[type=text]:hover, input[type=email]:hover, input[type=password]:hover{
     border: 2px solid #333;
+}
+.back{
+    width: 50%;
+    margin: 20px auto;
+    margin-bottom: 1px;   
+    padding: 0;   
+}
+.back a{
+    text-decoration: none;
+    color: #28454D;
 }
