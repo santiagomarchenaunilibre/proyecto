@@ -6,11 +6,14 @@
 
 
 // Sobrescribe variables de Bootstrap (opcional)
-$primary: #ff5733; // Cambia el color primario
+$primary: #ff5733; // Cambia el color 
 $body-bg: #f8f9fa; // Cambia el fondo del body
+$bs-primary: #fd0db5;
+
 
 // Escribe tus estilos personalizados
 .custom-style {
   color: $primary;
   font-size: 1.2rem;
 }
+
