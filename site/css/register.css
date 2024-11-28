@@ -41,7 +41,8 @@ body{
 }
 label {
     color: #212529;
-    display: block;    
+    display: block;
+    font-size: 1.1em;    
 }
 input{
     width: 100%;
@@ -57,7 +58,8 @@ h3{
     color: #28454D;
     margin: 0;
     font-weight: bolder;
-    text-align: center; 
+    text-align: center;
+    font-size: 1.25em;
 }
 button{
     background-color: #055160;
