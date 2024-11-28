@@ -11882,8 +11882,7 @@ a.text-dark:hover i {
 
 #carouselOfertas .card {
   border: none;
-  box-shadow: none; /* Opcional: elimina la sombra */
-  outline: none;
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
