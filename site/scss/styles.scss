@@ -50,6 +50,11 @@ a.text-dark:hover i {
   border-bottom: 2px solid #007bff; /* Agrega una línea en la parte inferior */
 }
 
+#carouselOfertas .card {
+  border: none;
+  box-shadow: none; /* Opcional: elimina la sombra */
+  outline: none;
+}
 
 
 
