@@ -11880,4 +11880,10 @@ a.text-dark:hover i {
   border-bottom: 2px solid #007bff; /* Agrega una línea en la parte inferior */
 }
 
+#carouselOfertas .card {
+  --bs-card-border-width: 0; /* Anula el ancho del borde */
+  --bs-card-border-color: transparent; /* Hace que el borde sea invisible */
+  --bs-card-box-shadow: none; /* Elimina las sombras */
+}
+
 /*# sourceMappingURL=styles.css.map */
