@@ -3,10 +3,13 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
 
 
 // Sobrescribe variables de Bootstrap (opcional)
-$primary: #ff5733; // Cambia el color 
+$primary: #055160; // Cambia el color 
 $body-bg: #f8f9fa; // Cambia el fondo del body
 $bs-primary: #fd0db5;
 
@@ -15,5 +18,10 @@ $bs-primary: #fd0db5;
 .custom-style {
   color: $primary;
   font-size: 1.2rem;
+}
+
+
+.body {
+  background-color: red;
 }
 
