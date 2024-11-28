@@ -9,7 +9,7 @@
 
 
 // Sobrescribe variables de Bootstrap (opcional)
-$primary: #055160; // Cambia el color 
+$primary: #eba93f; // Cambia el color 
 $body-bg: #f8f9fa; // Cambia el fondo del body
 $bs-primary: #fd0db5;
 
@@ -18,10 +18,38 @@ $bs-primary: #fd0db5;
 .custom-style {
   color: $primary;
   font-size: 1.2rem;
+} 
+
+/* Hover en los iconos */
+a.text-dark i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a.text-dark:hover i {
+  color: #007bff; /* Cambia el color al pasar el mouse */
+  transform: scale(1.1); /* Aumenta el tamaño del icono */
+}
+
+/* Hover en los iconos */
+a.text-dark i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a.text-dark:hover i {
+  color: #007bff; /* Cambia el color al pasar el mouse */
+  transform: scale(1.1); /* Aumenta el tamaño del icono */
+}
+
+/* Hover en los enlaces de navegación */
+.navbar a.text-dark {
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar a.text-dark:hover {
+  color: #007bff; /* Cambia el color al pasar el mouse */
+  border-bottom: 2px solid #007bff; /* Agrega una línea en la parte inferior */
 }
 
 
-.body {
-  background-color: red;
-}
+
 
