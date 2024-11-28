@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/register.css">
+    
     <title>Register</title>
 </head>
 <body>
-    <main>    
-        <div class="container">
+       
+    <main> 
+        <div class="back">
+            <p><a href="./login.html">← Regresar</a></p>
+        </div>                  
+        <div class="container">            
             <div class="logo">
                 <img src="./img/Group 1.png" alt="" id="imagen">
-                <h1>SPORTTECH</h1>
+                <h1>SPORTECH</h1>
             </div>            
             <h3>Crear cuenta:</h3>
-            <form id="form">
+            <form id="form" method="post">
                 <div class="form-group">
                     <label for="name">Nombres:</label>
                     <input type="text" id="name" name="name" placeholder="Ingrese sus nombres" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">Apellidos:</label>
-                    <input type="text" id="name" name="name" placeholder="Ingrese sus apellidos" required>
+                    <label for="lastname">Apellidos:</label>
+                    <input type="text" id="lastname" name="name" placeholder="Ingrese sus apellidos" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">Contraseña:</label>
+                    <label for="password">Contraseña:</label>
                     <input type="password" id="password" name="password" placeholder="Ingrese contraseña" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">Confirmar contraseña:</label>
-                    <input type="password" id="password" name="password" placeholder="Confirme contraseña" required>
+                    <label for="passwordConfirm">Confirmar contraseña:</label>
+                    <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="Confirme contraseña" required>
                 </div>
                 <button type="submit">Crear cuenta</button>                              
             </form>
