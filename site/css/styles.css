@@ -11914,14 +11914,8 @@ a.text-dark:hover i {
   right: -100px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #007bff;
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: #0056b3;
+#footer {
+  --bs-navbar-padding-y: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
