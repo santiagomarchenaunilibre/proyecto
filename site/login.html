@@ -4,75 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Login</title>
-    
-
+    <title>Sportech - Login</title>
 </head>
 <body>
-
-    <div class="container">
-      <div class="row justify-content-center mt-5">
+    <div class="container mt-5 mx-auto py-5">
+      <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm m-2">
                   <div class="card-body">
                       <div class="d-flex justify-content-center"> 
-                        <div class="mb-"> <a href="home.html"><img src="img/frame.png"></a></div>
+                        <div class="mb-1 mt-4"><a href="home.html"><img src="img/frame.png"></a></div>
                       </div> 
                       <div>
-                      <h3 class="card-title text-center mb-4">Iniciar sesión</h3>
+                        <h3 class="card-title text-center mt-4 fs-3 mb-4">Iniciar sesión</h3>
                       </div>
                       <form method="post">
                           <div class="mb-3">
-                              <label for="email" class="form-label">Correo electrónico</label>
-                              <input type="email" class="form-control" id="email" placeholder="Introduce tu correo">
+                              <label for="email" class="form-label fs-5">Correo electrónico:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Introduzca correo">
                           </div>
                           <div class="mb-3">
-                              <label for="password" class="form-label">Contraseña</label>
-                              <input type="password" class="form-control" id="password" placeholder="Introduce tu contraseña">
+                              <label for="password" class="form-label fs-5">Contraseña:</label>
+                              <input type="password" class="form-control" id="password" placeholder="Introduzca contraseña">
                           </div>
-
                           <div class="d-grid gap-2">
                             <p>
                               <span class="text-body">¿Olvidaste tu contraseña?</span>
                               <a href="./restartPassword.html" class="text-decoration-none">Recupérala aquí</a>
-                            </p>
-                            
-                          </div>
-
-                    
+                            </p>                            
+                          </div>                    
                           <div class="d-grid gap-2">
-                              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                              <button type="submit" class="btn btn-primary" id="iniciarSesion">Iniciar sesión</button>
                           </div>
-
                       </form>
-
-                      <div class="p-4">
+                      <div class="p-4 text-center">
                         <p>
                           <span class="text-body">¿No estás registrado?</span>
                           <a href="./register.html" class="text-decoration-none">Crea una cuenta</a>
                         </p>
-                      </div>
-                      
-                      
-    </div>
-       
+                      </div>                    
+                  </div>  
+                </div>                      
+            </div>
+          </div>                      
+        </div>       
 </body>
-<footer class="container-fluid bg-body-tertiary">  
+<footer class="container-fluid bg-body-tertiary" id="footer">  
   <div class="navbar navbar-light bg-white shadow-sm d-flex navbar fixed-bottom bg-body-tertiary">
-    <div class="container-fluid px-5" style="background-color: #032830;">
+    <div class="container-fluid px-5" id="colorFooter">
         <!-- Logo -->
-        <a class="navbar-brand fw-bold text-uppercase" href="home.html">
+        <a class="navbar-brand fw-bold text-uppercase mt-0" href="home.html">
             <img src="img/frameWhite.png" alt="Sportech" class="d-inline-block align-text-top">
         </a>       
 
         <div class="mx-auto p-2" style="color: white;">
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav class="navbar navbar-expand-lg navbar-light mt-3">
             <a href="#" class="text-white mx-1 text-decoration-none">CUENTA </a>
-            <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
+            <div class="m-2 d-inline-block footerMenu"></div>
             <a href="#" class="text-white mx-1 px-1 text-decoration-none">TERMINOS DE USO </a>
-            <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
+            <div class="m-2 d-inline-block footerMenu"></div>
             <a href="#" class="text-white mx-1 px-1 text-decoration-none">POLÍTICAS DE PRIVACIDAD</a>
-            <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
+            <div class="m-2 d-inline-block footerMenu"></div>
             <a href="#" class="text-white  mx-1 px-1 text-decoration-none">ENVÍOS Y DEVOLUCIONES </a>         
           </nav>
           <div class="mx-auto p-2">
@@ -82,8 +74,5 @@
       </div>
   </div>
 </footer>
-<script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
-  </script>
+<script src="js/scriptLucide.js"></script>  
 </html>

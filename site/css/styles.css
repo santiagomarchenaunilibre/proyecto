@@ -11919,3 +11919,23 @@ a.text-dark:hover i {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+#breadcrumbHome, #breadcrumbItem4{
+  color: #032830;
+}
+#agg, #iniciarSesion{
+  --bs-btn-bg: #032830;
+  --bs-btn-hover-bg: #0DCAF0;
+}
+#colorFooter{
+  background-color: #032830;
+}
+#footer{
+  --bs-navbar-padding-y: 0;
+  --bs-gutter-x: 0;
+}
+.footerMenu, .navMenu{
+  height: 16px;
+  width: 1px;
+  background-color: #ccc;
+}
