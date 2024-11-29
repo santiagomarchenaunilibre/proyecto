@@ -11886,4 +11886,12 @@ a.text-dark:hover i {
   --bs-card-box-shadow: none; /* Elimina las sombras */
 }
 
+#carouselOfertas .card-body {
+  padding: 0;
+}
+
+#bannerHeader {
+  background-color: #212529;
+}
+
 /*# sourceMappingURL=styles.css.map */
