@@ -11939,3 +11939,6 @@ a.text-dark:hover i {
   width: 1px;
   background-color: #ccc;
 }
+.botonItem{
+  border: 2px solid #CED4DA;
+}
