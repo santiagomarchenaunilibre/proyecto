@@ -67,4 +67,28 @@ a.text-dark:hover i {
 }
 
 
+#carouselOfertas {
+  position: relative;
+}
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  z-index: 10; 
+}
+
+
+.carousel-control-prev {
+  left: -100px; 
+}
+
+.carousel-control-next {
+  right: -100px; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(15%) sepia(8%) saturate(7%) hue-rotate(240deg) brightness(94%) contrast(96%);
+}
