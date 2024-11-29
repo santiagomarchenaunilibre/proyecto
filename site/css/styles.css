@@ -11914,8 +11914,8 @@ a.text-dark:hover i {
   right: -100px;
 }
 
-#footer {
-  --bs-navbar-padding-y: 0;
+#footer .navbar {
+  padding: 0 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
