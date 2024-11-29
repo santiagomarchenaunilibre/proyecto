@@ -51,7 +51,20 @@ a.text-dark:hover i {
 }
 
 #carouselOfertas .card {
-  border: none;
-  box-shadow: none; }
+  --bs-card-border-width: 0; /* Anula el ancho del borde */
+  --bs-card-border-color: transparent; /* Hace que el borde sea invisible */
+  --bs-card-box-shadow: none; /* Elimina las sombras */
+  
+}
+
+#carouselOfertas .card-body {
+  padding: 0;
+}
+
+
+#bannerHeader {
+  background-color:$dark;
+}
+
 
 
