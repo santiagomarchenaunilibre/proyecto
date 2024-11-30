@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.3/dist/sweetalert2.min.js"></script>
+    
     <title>Sportech - Login</title>
 </head>
 <body>
@@ -18,7 +22,8 @@
                       <div>
                         <h3 class="card-title text-center mt-4 fs-3 mb-4">Iniciar sesión</h3>
                       </div>
-                      <form method="post">
+                      
+                      <form method="post" id="loginForm" >
                           <div class="mb-3">
                               <label for="email" class="form-label fs-5">Correo electrónico:</label>
                               <input type="email" class="form-control" id="email" placeholder="Introduzca correo">
@@ -37,6 +42,7 @@
                               <button type="submit" class="btn btn-primary" id="iniciarSesion">Iniciar sesión</button>
                           </div>
                       </form>
+
                       <div class="p-4 text-center">
                         <p>
                           <span class="text-body">¿No estás registrado?</span>
@@ -47,8 +53,12 @@
                 </div>                      
             </div>
           </div>                      
-        </div>       
+        </div>      
+        <script src="../helpers/user.js"></script>   
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
+
 <footer class="container-fluid bg-body-tertiary" id="footer">  
   <div class="navbar navbar-light bg-white shadow-sm d-flex navbar fixed-bottom bg-body-tertiary">
     <div class="container-fluid px-5" id="colorFooter">
@@ -74,5 +84,9 @@
       </div>
   </div>
 </footer>
+
 <script src="js/scriptLucide.js"></script>  
+
+
+
 </html>
