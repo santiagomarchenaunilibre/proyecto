@@ -11850,44 +11850,66 @@ textarea.form-control-lg {
   font-size: 1.2rem;
 }
 
+a.text-dark i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a.text-dark:hover i {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
 /* Hover en los iconos */
 a.text-dark i {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 a.text-dark:hover i {
-  color: #007bff; /* Cambia el color al pasar el mouse */
-  transform: scale(1.1); /* Aumenta el tamaño del icono */
+  color: #007bff;
+  transform: scale(1.1);
 }
 
-/* Hover en los iconos */
-a.text-dark i {
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-a.text-dark:hover i {
-  color: #007bff; /* Cambia el color al pasar el mouse */
-  transform: scale(1.1); /* Aumenta el tamaño del icono */
-}
-
-/* Hover en los enlaces de navegación */
 .navbar a.text-dark {
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .navbar a.text-dark:hover {
-  color: #007bff; /* Cambia el color al pasar el mouse */
-  border-bottom: 2px solid #007bff; /* Agrega una línea en la parte inferior */
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
 }
 
 #carouselOfertas .card {
-  --bs-card-border-width: 0; /* Anula el ancho del borde */
-  --bs-card-border-color: transparent; /* Hace que el borde sea invisible */
-  --bs-card-box-shadow: none; /* Elimina las sombras */
+  --bs-card-border-width: 0;
+  --bs-card-border-color: transparent;
+  --bs-card-box-shadow: none;
 }
 
-#carouselOfertas .card-body {
-  padding: 0;
+button.carousel-control-prev,
+button.carousel-control-next {
+  color: #000;
+}
+
+button.carousel-control-prev:hover,
+button.carousel-control-next:hover {
+  color: #343a40;
+}
+
+button.carousel-control-prev:focus,
+button.carousel-control-next:focus {
+  color: #495057;
+}
+
+button.carousel-control-prev:active,
+button.carousel-control-next:active {
+  color: #343a40;
+}
+
+button.carousel-control-prev {
+  left: -100px;
+}
+
+button.carousel-control-next {
+  right: -100px;
 }
 
 #bannerHeader {
@@ -11898,47 +11920,9 @@ a.text-dark:hover i {
   position: relative;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
-.carousel-control-prev {
-  left: -100px;
-}
-
-.carousel-control-next {
-  right: -100px;
-}
-
-#footer .navbar {
-  padding: 0 !important;
+#footer {
+  --bs-navbar-padding-y: 0;
+  background: #032830;
 }
 
 /*# sourceMappingURL=styles.css.map */
-
-#breadcrumbHome, #breadcrumbItem4{
-  color: #032830;
-}
-#agg, #iniciarSesion{
-  --bs-btn-bg: #032830;
-  --bs-btn-hover-bg: #0DCAF0;
-}
-#colorFooter{
-  background-color: #032830;
-}
-#footer{
-  --bs-navbar-padding-y: 0;
-  --bs-gutter-x: 0;
-}
-.footerMenu, .navMenu{
-  height: 16px;
-  width: 1px;
-  background-color: #ccc;
-}
-.botonItem{
-  border: 2px solid #CED4DA;
-}
