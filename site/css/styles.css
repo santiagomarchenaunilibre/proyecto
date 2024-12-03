@@ -11920,9 +11920,9 @@ button.carousel-control-next {
   position: relative;
 }
 
-#footer {
+#footer, #colorFooter{
   --bs-navbar-padding-y: 0;
-  background: #032830;
+  background-color: #032830;
 }
 
 /*# sourceMappingURL=styles.css.map */
