@@ -11920,9 +11920,21 @@ button.carousel-control-next {
   position: relative;
 }
 
-#footer {
+#footer, #colorFooter{
+  --bs-gutter-x: 0;
   --bs-navbar-padding-y: 0;
-  background: #032830;
+  background-color: #032830;
+}
+#agg{
+  background-color: #032830;
+  --bs-btn-border-color: #0000;
+}
+#breadcrumbHome, #breadcrumbItem{
+  color: #032830;  
 }
 
+#cart-image {
+  max-width: 50px;
+  height:auto;
+}
 /*# sourceMappingURL=styles.css.map */
