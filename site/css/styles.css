@@ -11921,8 +11921,16 @@ button.carousel-control-next {
 }
 
 #footer, #colorFooter{
+  --bs-gutter-x: 0;
   --bs-navbar-padding-y: 0;
   background-color: #032830;
+}
+#agg{
+  background-color: #032830;
+  --bs-btn-border-color: #0000;
+}
+#breadcrumbHome, #breadcrumbItem{
+  color: #032830;  
 }
 
 /*# sourceMappingURL=styles.css.map */

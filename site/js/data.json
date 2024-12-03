@@ -4,7 +4,7 @@
         "id": 1,
         "nombre": "Gorra Sportech",
         "imagen": "img/gorra.jpg",
-        "precio": 100,
+        "precio": "150.000",
         "link": "product1.html",
         "descripcion": "Gorra deportiva de alto rendimiento, ideal para entrenamientos al aire libre y actividades de running. Con tecnología de ventilación para mayor comodidad."
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "nombre": "Tula Sportech",
         "imagen": "img/tula.jpg",
-        "precio": 200,
+        "precio": "80.000",
         "link": "product2.html",
         "descripcion": "Tula multifuncional para deportistas, diseñada para almacenar tus gadgets y equipo deportivo. Resistente, con compartimentos especiales para tus dispositivos electrónicos."
       },
@@ -20,14 +20,14 @@
         "id": 3,
         "nombre": "Botas Senderismo",
         "imagen": "img/botas.jpg",
-        "precio": 300,
+        "precio": "400.000",
         "link": "product3.html",
         "descripcion": "Botas deportivas para trail running, con suela antideslizante y tecnología de absorción de impacto. Perfectas para conquistar terrenos difíciles y mantenerte en movimiento."
       }, {
         "id": 4,
         "nombre": "Chaqueta Viento Sportech",
         "imagen": "img/chaquetaviento.jpg",
-        "precio": 120,
+        "precio": "120.000",
         "link": "product4.html",
         "descripcion": "Chaqueta de viento Sportech, ideal para entrenamientos al aire libre. Ligera, resistente al viento y con propiedades de transpiración para mantenerte cómodo."
       },
@@ -89,9 +89,9 @@
       },
       {
         "id": 12,
-        "nombre": "Sudadera Sportech",
+        "nombre": "Jogger Sportech",
         "imagen": "img/sudadera.jpg",
-        "precio": 160,
+        "precio": "200.000",
         "link": "product12.html",
         "descripcion": "Sudadera Sportech, diseñada para mantenerte abrigado sin sacrificar el estilo. Hecha con materiales térmicos y resistentes al desgaste para un rendimiento óptimo."
       },
