@@ -35,7 +35,7 @@
         "id": 5,
         "nombre": "Enterizo Sportech",
         "imagen": "img/enterizo-sportech.jpg",
-        "precio": 150,
+        "precio": "150.000",
         "link": "product5.html",
         "descripcion": "Enterizo deportivo Sportech, diseñado para máximo confort y rendimiento en actividades físicas. Con tecnología de compresión para mejorar tu rendimiento."
       },
