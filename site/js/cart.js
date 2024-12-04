@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
             liProducto.classList.add('list-group-item');
             liProducto.innerHTML = `
                 <div class="d-flex justify-content-center>
-                    <div class="d-flex justify-content-between">
-                        <span class="p-2">${producto.nombre}</span>
-                        <div class="p-2"> <img src="${producto.imagen}" id="cart-image"></div> </div>
-                    <span>$${producto.precio}</span>
+                    <div class="d-flex justify-content-between fw-bold mx-auto p-2">
+                        <span class="p-2 fs-4 fw-bold fst-italic">${producto.nombre}</span>
+                        <div class="p-2"><img src="${producto.imagen}" id="cart-image"></div></div>
+                    <span class="fs-4">$${producto.precio}</span>
                 </div>
             `;
             carritoContainer.appendChild(liProducto);
