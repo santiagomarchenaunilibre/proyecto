@@ -56,4 +56,4 @@ Explora el mundo de la ropa deportiva con una interfaz limpia y simple. Tu próx
 ## ** Creado por los estudiantes: **
 - Lesly Montaño.
 - Cristian Acosta.
-- Santiago Marchena
+- Santiago Marchena.
