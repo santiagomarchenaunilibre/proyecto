@@ -22,7 +22,7 @@ Para ver *Sportech* en tu máquina local y explorar la página, sigue estos senc
 
 1. **Clona el repositorio** a tu máquina local:
     ```bash
-    git clone [https://github.com/santiagomarchenaunilibre/proyecto.git]
+    git clone https://github.com/santiagomarchenaunilibre/proyecto.git
     ```
 
 2. **Abre el proyecto** en **Visual Studio Code**:
