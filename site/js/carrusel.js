@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         </a>
                                     </p>
                                     <p class="card-text fs-5 text">$${producto.precio}</p>
-                                    <button type="button" class="btn btn-primary comprar-btn" data-id="${producto.id}">
+                                    <button type="button" class="btn btn-primary comprar-btn px-4" data-id="${producto.id}" style="background-color: #032830; --bs-btn-border-color: #000;">
                                         ${estaEnCarrito ? 'Agregado' : 'Agregar'}
                                     </button>
                                 </div>
