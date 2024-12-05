@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         </a>
                                     </p>
                                     <p class="card-text fs-5 text">$${producto.precio}</p>
-                                    <button type="button" class="btn btn-primary comprar-btn px-4" data-id="${producto.id}" style="background-color: #032830; --bs-btn-border-color: #000;">
+                                    <button type="button" class="btn btn-primary comprar-btn px-5 ms-5" data-id="${producto.id}" style="background-color: #032830; --bs-btn-border-color: #000;">
                                         ${estaEnCarrito ? 'Agregado' : 'Agregar'}
                                     </button>
                                 </div>
@@ -88,7 +88,7 @@ function agregarAlCarrito(producto, buttonElement) {
 
     const productoExistente = carrito.find(p => p.id === producto.id);
     if (productoExistente) {
-        alert('Este producto ya está en tu carrito');
+        alert('Este producto ya se encuentra registrado en el carrito.');
         return;
     }
 

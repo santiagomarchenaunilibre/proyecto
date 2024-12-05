@@ -11925,7 +11925,7 @@ button.carousel-control-next {
   --bs-navbar-padding-y: 0;
   background-color: #032830;
 }
-#agg{
+#agg, .agg{
   background-color: #032830;
   --bs-btn-border-color: #0000;
 }

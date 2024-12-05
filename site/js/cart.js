@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     if (carrito.length === 0) {
-        carritoContainer.innerHTML = '<li class="list-group-item">No hay productos en el carrito</li>';
+        carritoContainer.innerHTML = '<li class="list-group-item">No hay productos agregados al carrito</li>';
         totalPrecio.textContent = '$0.00';
     } else {
        
@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
        
-        totalPrecio.textContent = `$${total.toFixed(2)}`;
+        totalPrecio.textContent = `$${total.toFixed(0)} COP`;
     }
 });
