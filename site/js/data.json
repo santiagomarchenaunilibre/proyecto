@@ -25,7 +25,7 @@
         "descripcion": "Botas deportivas para trail running, con suela antideslizante y tecnología de absorción de impacto. Perfectas para conquistar terrenos difíciles y mantenerte en movimiento."
       }, {
         "id": 4,
-        "nombre": "Chaqueta Viento Sportech",
+        "nombre": "Chaqueta Sportech",
         "imagen": "img/chaquetaviento.jpg",
         "precio": "120,000",
         "link": "product4.html",
@@ -105,7 +105,7 @@
       },
       {
         "id": 14,
-        "nombre": "Vestido de Baño Sportech",
+        "nombre": "Vestido de Baño",
         "imagen": "img/vestidodebano.jpg",
         "precio": "160,000",
         "link": "product14.html",
@@ -113,7 +113,7 @@
       },
       {
         "id": 15,
-        "nombre": "Zapatos Cloud Sportech",
+        "nombre": "Zapatos Sportech",
         "imagen": "img/zapatos-cloud.jpg",
         "precio": "300,000",
         "link": "product15.html",
