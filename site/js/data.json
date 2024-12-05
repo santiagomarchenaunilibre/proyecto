@@ -1,0 +1,132 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Gorra Sportech",
+        "imagen": "img/gorra.jpg",
+        "precio": "150,000",
+        "link": "product1.html",
+        "descripcion": "Gorra deportiva de alto rendimiento, ideal para entrenamientos al aire libre y actividades de running. Con tecnología de ventilación para mayor comodidad."
+      },
+      {
+        "id": 2,
+        "nombre": "Tula Sportech",
+        "imagen": "img/tula.jpg",
+        "precio": "80,000",
+        "link": "product2.html",
+        "descripcion": "Tula multifuncional para deportistas, diseñada para almacenar tus gadgets y equipo deportivo. Resistente, con compartimentos especiales para tus dispositivos electrónicos."
+      },
+      {
+        "id": 3,
+        "nombre": "Botas Senderismo",
+        "imagen": "img/botas.jpg",
+        "precio": "400,000",
+        "link": "product3.html",
+        "descripcion": "Botas deportivas para trail running, con suela antideslizante y tecnología de absorción de impacto. Perfectas para conquistar terrenos difíciles y mantenerte en movimiento."
+      }, {
+        "id": 4,
+        "nombre": "Chaqueta Viento Sportech",
+        "imagen": "img/chaquetaviento.jpg",
+        "precio": "120,000",
+        "link": "product4.html",
+        "descripcion": "Chaqueta de viento Sportech, ideal para entrenamientos al aire libre. Ligera, resistente al viento y con propiedades de transpiración para mantenerte cómodo."
+      },
+      {
+        "id": 5,
+        "nombre": "Enterizo Sportech",
+        "imagen": "img/enterizo-sportech.jpg",
+        "precio": "150,000",
+        "link": "product5.html",
+        "descripcion": "Enterizo deportivo Sportech, diseñado para máximo confort y rendimiento en actividades físicas. Con tecnología de compresión para mejorar tu rendimiento."
+      },
+      {
+        "id": 6,
+        "nombre": "Hoodie Estampado",
+        "imagen": "img/hoodie-estampado.jpg",
+        "precio": "110,000",
+        "link": "product6.html",
+        "descripcion": "Hoodie estampado Sportech, una prenda versátil y estilizada para tus entrenamientos o días casuales. Hecho con materiales de alta calidad para mantenerte cómodo y abrigado."
+      },
+      {
+        "id": 7,
+        "nombre": "Short Sportech",
+        "imagen": "img/short-sportech.jpg",
+        "precio": "150,000",
+        "link": "product7.html",
+        "descripcion": "Short Sportech, diseñado para tus entrenamientos más intensos. Con tecnología de secado rápido y ajuste cómodo para optimizar tu rendimiento."
+      },
+      {
+        "id": 8,
+        "nombre": "Short Udry Sportech",
+        "imagen": "img/short-udry.jpg",
+        "precio": "140,000",
+        "link": "product8.html",
+        "descripcion": "Short Udry Sportech, con propiedades antimicrobianas y de secado rápido. Perfecto para actividades deportivas en climas cálidos."
+      },
+      {
+        "id": 9,
+        "nombre": "Shorts Caribe Sportech",
+        "imagen": "img/shorts-caribe.jpg",
+        "precio": "110,000",
+        "link": "product9.html",
+        "descripcion": "Shorts Caribe Sportech, diseñados para el clima cálido. Con tecnología de protección UV y tela transpirable para un máximo confort durante todo el día."
+      },
+      {
+        "id": 10,
+        "nombre": "Shorts Nero Sportech",
+        "imagen": "img/shorts-nero.jpg",
+        "precio": "130,000",
+        "link": "product10.html",
+        "descripcion": "Shorts Nero Sportech, ideales para actividades deportivas de alto impacto. Con tecnología de ajuste perfecto y materiales duraderos para un mejor rendimiento."
+      },
+      {
+        "id": 11,
+        "nombre": "Shorts Simple Sportech",
+        "imagen": "img/shorts-simple.jpg",
+        "precio": "140,000",
+        "link": "product11.html",
+        "descripcion": "Shorts Simple Sportech, cómodos y ligeros, perfectos para tus entrenamientos diarios. Con una línea minimalista y elegante para mayor versatilidad."
+      },
+      {
+        "id": 12,
+        "nombre": "Jogger Sportech",
+        "imagen": "img/sudadera.jpg",
+        "precio": "200,000",
+        "link": "product12.html",
+        "descripcion": "Sudadera Sportech, diseñada para mantenerte abrigado sin sacrificar el estilo. Hecha con materiales térmicos y resistentes al desgaste para un rendimiento óptimo."
+      },
+      {
+        "id": 13,
+        "nombre": "Tula Sportech",
+        "imagen": "img/tula.jpg",
+        "precio": "80,000",
+        "link": "product13.html",
+        "descripcion": "Tula multifuncional para deportistas, diseñada para almacenar tus gadgets y equipo deportivo. Resistente, con compartimentos especiales para tus dispositivos electrónicos."
+      },
+      {
+        "id": 14,
+        "nombre": "Vestido de Baño Sportech",
+        "imagen": "img/vestidodebano.jpg",
+        "precio": "160,000",
+        "link": "product14.html",
+        "descripcion": "Vestido de baño Sportech, diseñado con materiales de alta resistencia al cloro y el sol. Perfecto para nadadores y deportistas acuáticos."
+      },
+      {
+        "id": 15,
+        "nombre": "Zapatos Cloud Sportech",
+        "imagen": "img/zapatos-cloud.jpg",
+        "precio": "300,000",
+        "link": "product15.html",
+        "descripcion": "Zapatos Cloud Sportech, con tecnología de amortiguación avanzada para una pisada más cómoda y ligera. Perfectos para correr o hacer ejercicio durante largos períodos."
+      },
+      {
+        "id": 16,
+        "nombre": "Shorts Simple Sportech",
+        "imagen": "img/shorts-simple.jpg",
+        "precio": "140,000",
+        "link": "product11.html",
+        "descripcion": "Shorts Simple Sportech, cómodos y ligeros, perfectos para tus entrenamientos diarios. Con una línea minimalista y elegante para mayor versatilidad."
+      }
+    ]
+  }
+  

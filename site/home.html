@@ -1,195 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Sportech - Home</title>
 
-    <title>Sportech</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-flex flex-column">
-    <div class="container p-4">
-        <!-- Logo -->
-        <a class="navbar-brand fw-bold text-uppercase" href="#">
-            <img src="/proyecto/site/img/logo st.svg" alt="Sportech" class="d-inline-block align-text-top">
-        </a>
-
-        <!-- Iconos y dirección -->
-        <div class="d-flex align-items-center">
-            <!-- Dirección -->
-             <div> 
-              <span class="mx-1">Enviando a</span>
-              <span class="text-muted me-3 px-3
-              py-2 border border-2 rounded">
-              Calle 34 - 56
-              </span>
-
-             </div>
-            
-            <!-- Icono de usuario -->
-            <a href="./login.html" class="text-dark">
-              <i data-lucide="user-round" class="my-class"></i>
+    <div class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-flex flex-column">
+        <div class="container p-4">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold text-uppercase" href="home.html">
+                <img src="img/frame.png" alt="Sportech" class="d-inline-block align-text-top">
             </a>
 
-            <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
+            <!-- Iconos y dirección -->
+            <div class="d-flex align-items-center">
+                <!-- Dirección -->
+                <div>
+                    <span class="mx-1">Enviando a:</span>
+                    <span class="text-muted me-3 px-3 py-2 border border-2 rounded">Colombia</span>
+                </div>
 
+                <!-- Icono de usuario -->
+                <a href="./login.html" class="text-dark">
+                    <i data-lucide="user-round" class="my-class"></i>
+                </a>
 
-            <!-- Icono de carrito -->
-            <a href="#" class="text-dark">
-              <i data-lucide="shopping-cart" class="my-class"></i>
-            </a>
+                <div class="m-2 d-inline-block navMenu"></div>
+
+                <!-- Icono de carrito -->
+                <a href="shoppingCart.html" class="text-dark">
+                    <i data-lucide="shopping-cart" class="my-class"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">MUJER </a>
+                <div class="m-2 d-inline-block navMenu"></div>
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">HOMBRE </a>
+                <div class="m-2 d-inline-block navMenu"></div>
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">NIÑOS</a>
+                <div class="m-2 d-inline-block navMenu"></div>
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">COMPLEMENTOS </a>
+            </nav>
         </div>
     </div>
 
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a href="#" class="text-dark mx-1 px-1 text-decoration-none">MUJER </a>
-        <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
-        <a href="#" class="text-dark mx-1 px-1 text-decoration-none">HOMBRE </a>
-        <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
-        <a href="#" class="text-dark mx-1 px-1 text-decoration-none">NIÑOS</a>
-        <div class="m-2 d-inline-block" style="height: 16px; width: 1px; background-color: #ccc;"></div>
-        <a href="#" class="text-dark  mx-1 px-1 text-decoration-none">COMPLEMENTOS </a>
-        
-       
-        
-
-      </nav>
-      
-
-    </div>
-  </div>
-
-  <main>
-    <div class="d-flex flex-column align-items-left bg-info px-4">
-      <div class="d-flex">
-        <p>Llegaron las ofertas de fin de año</p>
-      </div>
-    </div>
-
-     <!-- Carrusel -->
-    <div class="p-5">
-      <div id="carouselOfertas" class="carousel slide px-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- Primer Slide con 4 productos -->
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card bg-transparent border-transparent">
-                  <img src="img/gorra.jpg" class="card-img-top" alt="Producto 1">
-                  <div class="card-body">
-                    <h5 class="card-title">Gorra</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="img/tula.jpg" class="card-img-top" alt="Producto 2">
-                  <div class="card-body">
-                    <h5 class="card-title">Tula</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="img/botas.jpg" class="card-img-top" alt="Producto 3">
-                  <div class="card-body">
-                    <h5 class="card-title">Botas senderismo</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="img/sudadera.jpg" class="card-img-top" alt="Producto 4">
-                  <div class="card-body">
-                    <h5 class="card-title">Sudadera deportiva</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
+    <main>
+        <div class="d-flex flex-column align-items-left bg-info px-4">
+            <div class="d-flex">
+              <p class="text-center"></p>
             </div>
           </div>
-  
-          <!-- Segundo Slide con 4 productos -->
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 5">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 5</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 6">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 6</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 7">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 7</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-3 mb-3">
-                <div class="card">
-                  <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 8">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 8</h5>
-                    <p class="card-text">$456677</p>
-                  </div>
-                </div>
-              </div>
+        <div class="d-flex justify-content-center">
+            <div id="bannerHeader" class="w-100 py-4">
+                <h3 class="text-center text-white fs-1">BLACK DAYS</h3>
+                <p class="text-center text-white fs-5">DEL 20 DE NOVIEMBRE AL 5 DE DICIEMBRE</p>
             </div>
-          </div>
         </div>
-  
-        <!-- Controles del carrusel -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOfertas" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselOfertas" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-  
-      
-    </div>
-    
 
+        <!-- Carrusel -->
+        <div class="p-5 pb-1 pt-3" >
+            <div class="p-5 pb-1 pt-3">
+                <div id="carouselOfertas" class="carousel slide px-5" data-bs-ride="carousel">
+                    <div class="carousel-inner" id="carouselProductos">
+                        <!-- Los productos se cargarán dinámicamente aquí -->
+                    </div>
 
-  </main>
+                    <!-- Controles del carrusel -->
+                    <button class="carousel-control-prev px-1" type="button" data-bs-target="#carouselOfertas" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <i data-lucide="chevron-left" class="my-class"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselOfertas" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <i data-lucide="chevron-right" class="my-class"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
 
+    <footer class="container-fluid bg-body-tertiary" id="footer">
+        <div class="navbar navbar-light bg-white shadow-sm d-flex navbar bg-body-tertiary">
+            <div class="container-fluid px-5" id="colorFooter">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold text-uppercase mt-0" href="home.html">
+                    <img src="img/frameWhite.png" alt="Sportech" class="d-inline-block align-text-top">
+                </a>
 
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
-  </script>
+                <div class="mx-auto p-2" style="color: white;">
+                    <nav class="navbar navbar-expand-lg navbar-light mt-3">
+                        <a href="#" class="text-white mx-1 text-decoration-none">CUENTA </a>
+                        <div class="m-2 d-inline-block footerMenu"></div>
+                        <a href="#" class="text-white mx-1 px-1 text-decoration-none">TERMINOS DE USO </a>
+                        <div class="m-2 d-inline-block footerMenu"></div>
+                        <a href="#" class="text-white mx-1 px-1 text-decoration-none">POLÍTICAS DE PRIVACIDAD</a>
+                        <div class="m-2 d-inline-block footerMenu"></div>
+                        <a href="#" class="text-white mx-1 px-1 text-decoration-none">ENVÍOS Y DEVOLUCIONES </a>
+                    </nav>
+                    <div class="mx-auto p-2">
+                        <p class="text-center">&copy; 2024 SPORTECH Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
+    <script src="js/scriptLucide.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="./js/bootstrapJS.js"></script>
+    <script src="./js/carrusel.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/data.json"></script>    
 </body>
 
 </html>

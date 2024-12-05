@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Sportech - Carrito</title>    
+    </head>
+
+    <body>
+        <div class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-flex flex-column">
+            <div class="container p-4">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold text-uppercase" href="home.html">
+                    <img src="img/frame.png" alt="Sportech" class="d-inline-block align-text-top">
+                </a>
+
+                <!-- Iconos y dirección -->
+                <div class="d-flex align-items-center">
+                    <!-- Dirección -->
+                    <div> 
+                    <span class="mx-1">Enviando a:</span>
+                    <span class="text-muted me-3 px-3
+                    py-2 border border-2 rounded">Colombia
+                    </span>
+                    </div>
+                    
+                    <!-- Icono de usuario -->
+                    <a href="./login.html" class="text-dark">
+                    <i data-lucide="user-round" class="my-class"></i>
+                    </a>
+
+                    <div class="m-2 d-inline-block navMenu"></div>
+
+
+                    <!-- Icono de carrito -->
+                    <a href="#" class="text-dark">
+                    <i data-lucide="shopping-cart" class="my-class"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">MUJER </a>
+                <div class="m-2 d-inline-block navMenu"></div>
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">HOMBRE </a>
+                <div class="m-2 d-inline-block navMenu"></div>
+                <a href="#" class="text-dark mx-1 px-1 text-decoration-none">NIÑOS</a>
+                <div class="m-2 d-inline-block navMenu"></div>
+                <a href="#" class="text-dark  mx-1 px-1 text-decoration-none">COMPLEMENTOS </a>
+            </nav>
+            </div>
+        </div>
+        <main class="m-5 container-fluid">
+             <div id="productos" class="container-fluid">
+                <ul id="carritoList" class="list-group list-group-numbered col-sm-4 mx-auto p-2 "></ul>
+                <p class="px-3 fs-3 fw-semibold text-center mx-auto w-25">Total: <span id="totalPrecio" class="fs-4 text-nwrap bg-body-secondary border fw-bold">0.00</span></p>
+            </div>
+            <div class="container-fluid w-25 text-center">
+                <button class="btn btn-primary agg"><a href="https://www.nequi.com.co/" style="color: white; text-decoration: none;" target="_blank">Ir a pagar</a></button>
+            </div>
+        </main>       
+    </body>   
+    <script src="js/scriptLucide.js"></script>
+        <script>
+            lucide.createIcons();
+        </script>
+    <script src="js/cart.js"></script>
+</html>

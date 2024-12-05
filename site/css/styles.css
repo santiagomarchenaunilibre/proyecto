@@ -11850,34 +11850,91 @@ textarea.form-control-lg {
   font-size: 1.2rem;
 }
 
+a.text-dark i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a.text-dark:hover i {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
 /* Hover en los iconos */
 a.text-dark i {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 a.text-dark:hover i {
-  color: #007bff; /* Cambia el color al pasar el mouse */
-  transform: scale(1.1); /* Aumenta el tamaño del icono */
+  color: #007bff;
+  transform: scale(1.1);
 }
 
-/* Hover en los iconos */
-a.text-dark i {
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-a.text-dark:hover i {
-  color: #007bff; /* Cambia el color al pasar el mouse */
-  transform: scale(1.1); /* Aumenta el tamaño del icono */
-}
-
-/* Hover en los enlaces de navegación */
 .navbar a.text-dark {
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .navbar a.text-dark:hover {
-  color: #007bff; /* Cambia el color al pasar el mouse */
-  border-bottom: 2px solid #007bff; /* Agrega una línea en la parte inferior */
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
 }
 
+#carouselOfertas .card {
+  --bs-card-border-width: 0;
+  --bs-card-border-color: transparent;
+  --bs-card-box-shadow: none;
+}
+
+button.carousel-control-prev,
+button.carousel-control-next {
+  color: #000;
+}
+
+button.carousel-control-prev:hover,
+button.carousel-control-next:hover {
+  color: #343a40;
+}
+
+button.carousel-control-prev:focus,
+button.carousel-control-next:focus {
+  color: #495057;
+}
+
+button.carousel-control-prev:active,
+button.carousel-control-next:active {
+  color: #343a40;
+}
+
+button.carousel-control-prev {
+  left: -100px;
+}
+
+button.carousel-control-next {
+  right: -100px;
+}
+
+#bannerHeader {
+  background-color: #212529;
+}
+
+#carouselOfertas {
+  position: relative;
+}
+
+#footer, #colorFooter{
+  --bs-gutter-x: 0;
+  --bs-navbar-padding-y: 0;
+  background-color: #032830;
+}
+#agg, .agg{
+  background-color: #032830;
+  --bs-btn-border-color: #0000;
+}
+#breadcrumbHome, #breadcrumbItem{
+  color: #032830;  
+}
+
+#cart-image {
+  max-width: 50px;
+  height:auto;
+}
 /*# sourceMappingURL=styles.css.map */
